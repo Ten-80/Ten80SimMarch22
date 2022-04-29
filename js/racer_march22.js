@@ -592,7 +592,7 @@ function buildPitLineClockwise(racer, lapIdx) {
             break;
         }
     }
-    let pitPt = [racer.line[idx][0] + 3, racer.line[idx][1]];
+    let pitPt = [racer.line[idx][0] + 50, racer.line[idx][1]];
     pitPt[1] = 1.5 / 2;
 
     let totalInX = pitPt[0] - handoffX;
